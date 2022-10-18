@@ -1,4 +1,4 @@
-#Escribir un programa que pregunte al usuario su nombre, y luego lo salude.
+#1.Escribir un programa que pregunte al usuario su nombre, y luego lo salude.
 
 nombre = ""
 

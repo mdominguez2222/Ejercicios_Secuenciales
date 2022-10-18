@@ -1,4 +1,4 @@
-#Calcular el perímetro y área de un rectángulo dada su base y su altura.
+#2.Calcular el perímetro y área de un rectángulo dada su base y su altura.
 
 base = 0
 altura = 0
