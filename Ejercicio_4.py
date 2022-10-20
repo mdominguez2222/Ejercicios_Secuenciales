@@ -1,4 +1,4 @@
-#Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
+#4.Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
 
 numero1 = 0
 numero2 = 0

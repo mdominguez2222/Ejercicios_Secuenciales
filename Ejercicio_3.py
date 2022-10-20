@@ -1,4 +1,4 @@
-#Dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
+#3.Dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
 
 from cmath import sqrt
 
