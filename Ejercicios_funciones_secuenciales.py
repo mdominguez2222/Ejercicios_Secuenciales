@@ -7,33 +7,55 @@ def ejer1():
 ejer1()
 
 
+
+
+
+
+
 #2.Calcular el perímetro y área de un rectángulo dada su base y su altura.
 
-def ejer2():
-    base = 0
-    altura = 0
+def calculaArea(base:int, altura:int):
 
-    base = (int) (input("¿Cuál es la base?: \n"))
-    altura = (int) (input("¿Cuál es la altura?: \n"))
+    return ((base*2)+(altura*2))
 
-    print ("El perímetro es:", ((base*2)+(altura*2)))
-    print ("El área es:", (base*altura))
-ejer2()
+
+def calculaPerimetro(base:int, altura:int):
+    return (base*altura)
+
+        
+       #Devuelvo una lista con [area,perimetro]
+
+def calculaAreaYPerimetro(base:int, altura:int):
+
+    vPerimetro = []
+    
+    vPerimetro.append(calculaArea(base,altura))
+    vPerimetro.append(calculaPerimetro(base,altura))
+    return vPerimetro
+
+
+       #Principal   
+
+base = int(input("Dime el área: \n"))
+altura = int(input("Dime la altura: \n"))
+
+vNum = calculaAreaYPerimetro(base,altura)
+
+print("El área es:", vNum[0])
+print("El perímetro es:", vNum[1])
+
+
+
+
+
 
 
 #3.Dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
 
-def ejer3():
+def ejer3(cateto1:int, cateto2:int):
     from cmath import sqrt
-
-    cateto1 = 0
-    cateto2 = 0
-
-    cateto1 = (int) (input("¿Cuál es el cateto A?: \n"))
-    cateto2 = (int) (input("¿Cuál es el cateto B?: \n"))
-
-    print ("La hipotenusa es ",sqrt(((cateto1*cateto1)+(cateto2*cateto2))))
-ejer3()
+    
+    return sqrt(((cateto1*cateto1)+(cateto2*cateto2)))
 
 
 #4.Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
