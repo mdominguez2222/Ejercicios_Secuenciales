@@ -33,8 +33,7 @@ def calculaAreaYPerimetro(base:int, altura:int):
     vPerimetro.append(calculaPerimetro(base,altura))
     return vPerimetro
 
-
-       #Principal   
+#Principal   
 
 base = int(input("Dime el área: \n"))
 altura = int(input("Dime la altura: \n"))
